@@ -35,25 +35,29 @@ a {
   margin: 0 auto;
 }
 
-.container {
+.body .container {
   width: 70%;
   margin: 0 auto;
 }
-
-@media (max-width: 400px) {
-  html {
-    font-size: 12px;
+@media (max-width: 768px) {
+  .body .container {
+    width: 90%;
   }
 }
+@media (max-width: 375px) {
+  .body .container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 350px) {
   html {
     font-size: 10px;
   }
 }
-@media (max-width: 768px) {
-  .container {
-    width: 90%;
-    border: 1px solid greenyellow;
+@media (max-width: 400px) {
+  html {
+    font-size: 12px;
   }
 }
 @media (max-width: 1024px) {
@@ -70,6 +74,16 @@ a {
   margin-top: 2rem;
   border-radius: 1rem;
   padding: 1rem;
+}
+@media (max-width: 768px) {
+  .main-area {
+    margin-top: 0;
+  }
+}
+@media (max-width: 375px) {
+  .main-area {
+    border-radius: 0;
+  }
 }
 .main-area .notification__header {
   display: flex;

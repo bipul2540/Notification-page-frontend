@@ -73,14 +73,16 @@ a {
   margin: 0 auto;
 }
 
-.container {
+.body .container {
   width: 70%;
   margin: 0 auto;
-}
 
-@media (max-width: 400px) {
-  html {
-    font-size: 12px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+
+  @media (max-width: 375px) {
+    width: 100%;
   }
 }
 
@@ -90,10 +92,9 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 90%;
-    border: 1px solid greenyellow;
+@media (max-width: 400px) {
+  html {
+    font-size: 12px;
   }
 }
 
@@ -112,6 +113,14 @@ a {
   margin-top: 2rem;
   border-radius: 1rem;
   padding: 1rem;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
+
+  @media (max-width: 375px) {
+    border-radius: 0;
+  }
 
   .notification__header {
     display: flex;
