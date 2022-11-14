@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notification Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body class="body">
+    <div class="main-area container">
+      <section class="notification__header">
+        <h2>Notification<span class="notification__count">3</span></h2>
+        <p class="read">Mark all as read</p>
+      </section>
+      <section class="notifications">
+        <div class="received__notifications active">
+          <div class="image">
+            <img src="./assets//images/avatar-mark-webber.webp" alt="" />
+          </div>
+          <div class="details">
+            <div class="detail">
+              <h2 class="name">
+                Mark Webber<span class="text">
+                  reacted to your recent post
+                  <span class="bold__text">My first tournament today !!</span>
+                </span>
+                <i class="fa-solid fa-circle"></i>
+              </h2>
+              
+            </div>
+            <div class="time">
+              <p>1m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="received__notifications active">
+          <div class="image">
+            <img src="./assets//images/avatar-angela-gray.webp" alt="" />
+          </div>
+          <div class="details">
+            <div class="detail">
+              <h2 class="name">
+                Angela Gray
+                <span class="text">
+                  followed you
+                  <span class="bold__text"></span>
+                </span>
+                <i class="fa-solid fa-circle"></i>
+              </h2>
+
+              
+            </div>
+            <div class="time">
+              <p>5m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="received__notifications active">
+          <div class="image">
+            <img src="./assets//images/avatar-jacob-thompson.webp" alt="" />
+          </div>
+          <div class="details">
+            <div class="detail">
+              <h2 class="name">
+                Jacob Thompson
+                <span class="text">
+                  has joined your Group
+                  <span class="bold__text link">Chess Club</span>
+                </span>
+                <i class="fa-solid fa-circle"></i>
+              </h2>
+            </div>
+            <div class="time">
+              <p>1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="received__notifications">
+          <div class="image">
+            <img src="./assets//images/avatar-rizky-hasanuddin.webp" alt="" />
+          </div>
+          <div class="details__message">
+            <div class="details">
+              <div class="detail">
+                <h2 class="name">
+                  Rizky Hasanuddin
+                  <span class="text">
+                    has sent you a private message
+                    <span class="bold__text"></span>
+                  </span>
+                </h2>
+
+                <span class="read__status"></span>
+              </div>
+              <div class="time">
+                <p>5 day ago</p>
+              </div>
+            </div>
+            <div class="message">
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and i'm already havign lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="received__notifications">
+          <div class="image">
+            <img src="./assets//images/avatar-kimberly-smith.webp" alt="" />
+          </div>
+          <div class="details__image">
+            <div class="details">
+              <div class="detail">
+                <h2 class="name">Kimberly Smith<span class="text">
+                  commented on your picture
+                  <span class="bold__text link"></span>
+                </span></h2>
+                
+                <span class="read__status"></span>
+              </div>
+              <div class="time">
+                <p>1 weeks ago</p>
+              </div>
+            </div>
+            <div class="comment_image">
+              <img src="./assets//images/image-chess.webp" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="received__notifications">
+          <div class="image">
+            <img src="./assets//images/avatar-nathan-peterson.webp" alt="" />
+          </div>
+          <div class="details">
+            <div class="detail">
+              <h2 class="name">Nathan Peterson<span class="text">
+                reacted to your recent post
+                <span class="bold__text"
+                  >5 end-game strategies to increase your win rate</span
+                ></h2>
+              
+              </span>
+              <span class="read__status"></span>
+            </div>
+            <div class="time">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="received__notifications">
+          <div class="image">
+            <img src="./assets//images/avatar-anna-kim.webp" alt="" />
+          </div>
+          <div class="details">
+            <div class="detail">
+              <h2 class="name">Anna Kim<span class="text">
+                left the group
+                <span class="bold__text link">Chess Club</span>
+              </span></h2>
+              
+              <span class="read__status"></span>
+            </div>
+            <div class="time">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- script -->
+    <script src="main.js"></script>
+  </body>
+</html>
